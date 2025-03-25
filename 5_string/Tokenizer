@@ -1,0 +1,13 @@
+import java.util.StringTokenizer;
+
+public class name Tokenizer{
+ public static voud main(String[] args){
+
+  StringTokenizerstr = new StringTokenizer("THIS IS A BOOK");
+  while(str.hasMoreTokens()){
+   system .out.println(str.nextToken());
+   
+
+  }
+ }
+}

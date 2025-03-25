@@ -1,5 +1,5 @@
 public class TestClass{
-  public void doMath(){
+  static void myMathod(){
     int a = 5;
     int b = 10;
     int c = a+b;
@@ -7,6 +7,6 @@ public class TestClass{
   }
   public static void main(String[]args){
     TestClass obj = new TestClass();
-   obj.doMath();
+     myMathod();
   }
 }
